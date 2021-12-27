@@ -262,7 +262,7 @@
      glVertex3f(1.8f, 3.5f, -2.0f);
      glVertex3f(-1.8f, 3.5f, -2.0f);
 
-
+//Commit 1
 //Tugas Coding untuk Novita Wardani
 
       //  glNormal3f(-1.0f, 0.0f, 0.0f);
