@@ -105,7 +105,7 @@
      glVertex3f(-2.0f, -0.2f, -2.0f);
      glVertex3f(2.0f, -0.2f, -2.0f);
 
-//Tugas Coding Untuk Frida Mimi Wahyuni
+//Tugas Coding Untuk Frida Mimi Wahyuni E1E119005
 
         //table front leg
         //front
