@@ -246,41 +246,8 @@
      glVertex3f(-1.4f, -3.0f, -1.2f);
      glVertex3f(-1.4f, -3.0f, -1.6f);
 
-     //chair back
-     //front
-     glColor3f(1,0,0);
-     //glNormal3f(-1.0f, 0.0f, 0.0f);
-     glVertex3f(-1.8f, 0.2f, -1.8f);
-     glVertex3f(1.8f, 0.2f, -1.8f);
-     glVertex3f(1.8f, 3.5f, -1.8f);
-     glVertex3f(-1.8f, 3.5f, -1.8f);
-
-        //back
-     //glNormal3f(-1.0f, 0.0f, 0.0f);
-     glVertex3f(-1.8f, 0.2f, -2.0f);
-     glVertex3f(1.8f, 0.2f, -2.0f);
-     glVertex3f(1.8f, 3.5f, -2.0f);
-     glVertex3f(-1.8f, 3.5f, -2.0f);
-
 //Commit 1
 //Tugas Coding untuk Novita Wardani
-
-      //  glNormal3f(-1.0f, 0.0f, 0.0f);
-     glVertex3f(-1.8f, 0.2f, -2.0f);
-     glVertex3f(-1.8f, 3.5f, -2.0f);
-     glVertex3f(-1.8f, 3.5f, -1.8f);
-     glVertex3f(-1.8f, 0.2f, -1.8f);
-
-
-        glVertex3f(1.8f, 0.2f, -2.0f);
-     glVertex3f(1.8f, 3.5f, -2.0f);
-     glVertex3f(1.8f, 3.5f, -1.8f);
-     glVertex3f(1.8f, 0.2f, -1.8f);
-
-     glVertex3f(-1.8f, 3.5f, -2.0f);
-     glVertex3f(-1.8f, 3.5f, -1.8f);
-     glVertex3f(1.8f, 3.5f, -1.8f);
-        glVertex3f(1.8f, 3.5f, -2.0f);
      glEnd();
      glutSwapBuffers();
     }
@@ -293,8 +260,6 @@
 
 
 //Tugas Coding untuk Dinar Sabrina
-
-
      glutPostRedisplay();
      glutTimerFunc(25, update, 0);
     }
